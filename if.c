@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int age;
+    printf("Enter the age:\n");
+    scanf("%d", &age);
+
+    if (age>18)                 
+    {
+        printf("You can vote!");
+    }
+    
+    printf("You have enter %d as age\n", age);
+
+    return 0;
+}
